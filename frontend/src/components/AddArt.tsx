@@ -1,6 +1,5 @@
 import React from "react";
 import { addArticle } from "../store/actionCreateDispatch";
-import store from "../store/store";
 import {Navigate} from "react-router-dom";
 class AddArt extends React.Component<{},{heading:string,body:string,published:boolean,redirect:boolean}>{
 
